@@ -3,6 +3,7 @@ import {RevealOnScroll} from '../RevealOnScroll'
 import { FaHtml5,FaCss3,FaReact,FaNodeJs,FaNpm,FaGithub,FaCloudDownloadAlt} from 'react-icons/fa'
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandSocketIo } from "react-icons/tb";
 import { SiExpress,SiMongodb,SiMongoose,SiVite, SiPrettier,SiPostman} from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -20,6 +21,8 @@ export default function About() {
         {label:'Express.js',icon:<SiExpress />},
         {label:'MongoDB',icon:<SiMongodb />},
         {label:'Mongoose',icon:<SiMongoose />}, 
+        {label:'SocketIo',icon:<TbBrandSocketIo />
+}
     ]
       const toolskills = [
         {label:'Vscode',icon:<VscVscode />},
