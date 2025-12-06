@@ -5,12 +5,16 @@ export default function Home() {
     <section id="home" className='min-h-screen flex items-center justify-center relative'>
       <RevealOnScroll>
         <div className='text-center z-10 px-4'>
+            <div className='flex justify-center'>
+                <img className='w-60 h-auto' src="/IMG20240727084926.png" alt="ma photo" />
+            </div>
+            <h2 className='text-xl py-5'>Bonjour, je suis Faycel DJENAOUCINE</h2>
             <h1 className='text-5xl md:text-6xl pb-4 font-bold mb-6 bg-linear-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent leading-right'>
-                Bonjour, je suis Faycel DJENAOUCINE
+                Développeur Full-Stack
             </h1>
 
             <p className='text-gray-400 text-lg mb-8 max-w-4xl mx-auto '>
-                Développeur Full-Stack passionné par la création d'applications web modernes et performantes. Maîtrise du stack MERN (MongoDB, Express.js, React, Node.js) pour concevoir, développer et déployer des solutions complètes, de la conception de la base de données à l'interface utilisateur. Je suis capable de travailler de manière autonome ou en équipe pour répondre aux besoins des clients et livrer des projets de qualité.
+                 passionné par la création d'applications web modernes et performantes. Maîtrise du stack MERN (MongoDB, Express.js, React, Node.js) pour concevoir, développer et déployer des solutions complètes, de la conception de la base de données à l'interface utilisateur. Je suis capable de travailler de manière autonome ou en équipe pour répondre aux besoins des clients et livrer des projets de qualité.
             </p>
             <div className='flex justify-center space-x-4'>
               <a 

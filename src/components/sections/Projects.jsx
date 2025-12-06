@@ -19,7 +19,7 @@ export default function Projects() {
                 <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all'>
                     <h3 className='text-xl font-bold mb-2'>Todo list</h3>
                     <p className='text-gray-400 mb-4'>Une mini to-do list : note et coche tes tâches en un clin d'œil.</p>
-                    <div>
+                    <div className="overflow-auto">
                         {['react','node.js','express','mongodb'].map((tech,key)=>(
                             <span
                                 key={key} 
