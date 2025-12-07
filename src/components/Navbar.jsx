@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { IoHomeOutline } from "react-icons/io5";
 
 export default function Navbar({menuOpen, setMenuOpen}) {
 useEffect(()=>{
@@ -10,7 +11,7 @@ useEffect(()=>{
         <div className='max-w-5xl mx-auto px-4'>
             <div className='flex justify-between item-center h-16'>
                 <a href="#home" className='font-mono flex items-center text-xl font-bold text-white'>
-                    Faycel <span className='text-blue-500'>.tech</span>
+                    <IoHomeOutline />
                 </a>
 
                 {/*for phones (burger) */}
@@ -19,11 +20,6 @@ useEffect(()=>{
                 </div>
                 {/* for big screens */}
                 <div className='hidden md:flex items-center space-x-8'>
-                     <a href="#home"
-                        className='text-gray-300 hover:text-white transition-colors'>
-                            Accueil
-                        </a>
-
                      <a href="#about"
                         className='text-gray-300 hover:text-white transition-colors'>
                             À propos
@@ -45,7 +41,6 @@ useEffect(()=>{
                 </div>
 
             </div>
-            <div className=''></div>
 
         </div>
     </nav>

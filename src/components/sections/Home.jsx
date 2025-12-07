@@ -10,7 +10,7 @@ export default function Home() {
                 <h2 className='lg:text-7xl md:text-5xl sm:text-3xl py-5'><span className='text-5xl lg:text-7xl md:text-5xl sm:text-5xl font-bold'>Bonjour,</span> <br /> je suis Faycel DJENAOUCINE</h2>
             </div>
             
-            <h1 className='text-5xl md:text-6xl pb-4 font-bold mb-6 bg-linear-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent leading-right'>
+            <h1 className='text-6xl md:text-7xl pb-4 font-bold mb-6 bg-linear-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent leading-right'>
                 Développeur Full-Stack
             </h1>
 
