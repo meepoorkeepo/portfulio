@@ -70,7 +70,6 @@ export default function Projects() {
 
                                 </p>
                                 <div>
-                            <img src="/1.png" alt="preview_image" />
                             </div>
                                </>
                             )}
@@ -143,7 +142,6 @@ export default function Projects() {
 
                                 </p>
                                 <div>
-                            <img src="/2.png" alt="preview_image" />
                             </div>
                                </>
                             )}
@@ -216,7 +214,6 @@ export default function Projects() {
 
                                 </p>
                                 <div>
-                            <img src="/3.png" alt="preview_image" />
                             </div>
                                </>
                             )}
@@ -289,7 +286,6 @@ export default function Projects() {
 
                                 </p>
                                 <div>
-                            <img src="/4.png" alt="preview_image" />
                             </div>
                                </>
                             )}
