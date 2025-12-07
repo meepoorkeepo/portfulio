@@ -22,7 +22,7 @@ export const Contact = () => {
     id='contact'
     className='min-h-screen flex items-center justify-center py-20'>
         <RevealOnScroll>
-            <div className="px-4 w-100 md:w-150 lg:w-200 ">
+            <div className="px-4 w-full md:w-150 lg:w-200 ">
                 <h2 className="text-5xl font-bold mb-8 bg-linear-to-r from-blue-500 to bg-cyan-400 bg-clip-text text-transparent text-center">Contactez-moi</h2>
                 <form className="space-y-6 " onSubmit={handleSubmit}>
 
