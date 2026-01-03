@@ -12,7 +12,18 @@ function App() {
   const [isLoaded,setIsLoaded] = useState(false)
   const [menuOpen,setMenuOpen] = useState(false)
 
-
+window.addEventListener('load', function() {
+  const apps = [
+    'https://causette.onrender.com',
+    'https://boutique-npyr.onrender.com',
+    'https://liste-taches.onrender.com',
+  ];
+  
+  apps.forEach(app => {
+    fetch(app, { method: 'GET' })
+      .catch(err => console.log(`Pinged ${app}`));
+  });
+});
 
   return (
     <>
