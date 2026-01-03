@@ -21,7 +21,6 @@ window.addEventListener('load', function() {
   
   apps.forEach(app => {
     fetch(app, { method: 'GET' })
-      .catch(err => console.log(`Pinged ${app}`));
   });
 });
 
