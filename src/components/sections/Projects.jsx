@@ -208,7 +208,7 @@ export default function Projects() {
 
                         <div className="text-blue-500 cursor-pointer text-4xl hover:text-blue-200 transition-colors "                              
                         >
-                            <a href="https://boutique-xw40.onrender.com/" target="_blank"><BiShow /></a>
+                            <a href="https://boutique-npyr.onrender.com" target="_blank"><BiShow /></a>
                             
                         </div>
                         </div>
