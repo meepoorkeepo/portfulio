@@ -53,11 +53,11 @@ export default function Projects() {
 
                     {/* skills */}
 
-                    <div className="flex items-center justify-center overflow-auto">
+                    <div className="flex justify-start overflow-auto">
                         {['TypeScript','react','node.js','JWT','express.js','mongodb','Render'].map((tech,key)=>(
                             <div
                                 key={key} 
-                                className='bg-blue-500/10 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition-all m-1'>{tech}</div>
+                                className='w-100 bg-blue-500/10 text-blue-300 p-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition-all m-1'>{tech}</div>
 
                         ))}
                         
@@ -92,7 +92,6 @@ export default function Projects() {
                                 • Gestion des utilisateurs: Système d'authentification sécurisé avec création de comptes et gestion des profils utilisateurs.<br/>
                                 • Design responsive: Adapté à tous les types d'écrans (mobile, tablette, desktop) pour une expérience utilisateur optimale.<br/>
                                 • Paiements sécurisés: Intégration transparente avec Stripe et PayPal pour des transactions en toute sécurité. 
-
                                 </ul>
                                 </p>
                                 <div>
@@ -100,10 +99,6 @@ export default function Projects() {
                                </>
                             )}
                             </div>
-
-
-
-                      
                         
                     </div>
 
@@ -140,7 +135,7 @@ export default function Projects() {
 
                     {/* skills */}
 
-                    <div className="flex items-center justify-center overflow-auto">
+                    <div className="flex justify-start overflow-auto">
                         {['react','node.js','JWT','Socket.IO','express.js','mongodb','Render'].map((tech,key)=>(
                             <div
                                 key={key} 
@@ -222,7 +217,7 @@ export default function Projects() {
 
                     {/* skills */}
 
-                    <div className="flex items-center justify-center overflow-auto">
+                    <div className="flex justify-start overflow-auto">
                         {['react','node.js','express.js','mongodb','Render'].map((tech,key)=>(
                             <div
                                 key={key} 
@@ -302,7 +297,7 @@ export default function Projects() {
 
                     {/* skills */}
 
-                    <div className="flex items-center justify-center overflow-auto">
+                    <div className="flex justify-start overflow-auto">
                         {['Html','Css','javascript','node.js','express.js','mongodb','Render'].map((tech,key)=>(
                             <div
                                 key={key} 
@@ -381,8 +376,8 @@ export default function Projects() {
 
                     {/* skills */}
 
-                    <div className="flex items-center justify-center overflow-auto">
-                        {['react','tailwindCss','Netlify'].map((tech,key)=>(
+                    <div className="flex justify-start overflow-auto">
+                        {['Javascript','react','tailwindCss','Netlify'].map((tech,key)=>(
                             <div
                                 key={key} 
                                 className='bg-blue-500/10 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition-all m-1'>{tech}</div>

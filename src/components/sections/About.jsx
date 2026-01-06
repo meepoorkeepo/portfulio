@@ -79,7 +79,7 @@ export default function About() {
 
                     {/* frontend mapping */}
                     <div className='rounded-xl  hover:-translate-y-1 transition-all place-items-center'>
-                        <h3 className='text-xl font-bold mb-4'>Frontend </h3>
+                        <h3 className='text-xl font-bold pt-3 mb-4'>Frontend </h3>
                         <div className='flex flex-wrap justify-center gap-2'>
                             {frontendskills.map((tech,key)=>(
                                 <span
