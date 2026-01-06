@@ -11,6 +11,7 @@ export default function Projects() {
     const [isOpen1, setIsOpen1] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
     const [isOpen3, setIsOpen3] = useState(false);
+    const [isOpen4, setIsOpen4] = useState(false);
 
   return (
     <section 
@@ -68,13 +69,13 @@ export default function Projects() {
 
                         <div className="w-full max-w-lg mx-auto">
                             <button
-                                onClick={() => setIsOpen(!isOpen)}
+                                onClick={() => setIsOpen4(!isOpen4)}
                                 className="flex items-center gap-2 text-left w-full px-4 rounded-lg transition-colors cursor-pointer"
                             >
                                 <span>Détails</span>
                                 <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className={`h-4 w-4 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                                className={`h-4 w-4 transition-transform ${isOpen4 ? 'rotate-180' : ''}`}
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -82,7 +83,7 @@ export default function Projects() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                 </svg>
                             </button>
-                            {isOpen && (
+                            {isOpen4 && (
                                <>
                                 <p className="mt-2 px-4 py-3 shadow-sm">
                                 Application web e-commerce moderne et responsive, conçue pour offrir une expérience d'achat fluide et sécurisée.
