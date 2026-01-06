@@ -6,7 +6,7 @@ export default function Home() {
       <RevealOnScroll>
         <div className='text-center z-10 px-4'>
             <div className='flex mb-8 pt-15 max-w-4xl mx-auto pb-10 justify-center items-center bg-linear-to-r from-cyan-900 to-white bg-clip-text text-transparent leading-right sm:gap-5 md:gap-10'>
-                <img className='size-50 sm:size-40 md:size-60 lg:size-80 object-cover rounded-4xl p-5' src="/5.jpg" alt="ma photo" />
+                <img className='size-50 sm:size-40 md:size-70 lg:size-80 object-cover rounded-4xl p-5' src="/5.jpg" alt="ma photo" />
                 <h2 className='lg:text-7xl md:text-5xl sm:text-3xl py-5'><span className='text-4xl lg:text-7xl md:text-5xl font-bold'>Bonjour,</span> <br /> je suis Faycel DJENAOUCINE</h2>
             </div>
             
