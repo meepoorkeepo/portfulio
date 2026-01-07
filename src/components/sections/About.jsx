@@ -69,7 +69,7 @@ export default function About() {
                         <strong>Cadre en logistique</strong> -[2016-2017] Société Algérienne De Fabrication De Véhicules Mercedes-benz (SAFAV)
                     </li>
                     <li>
-                        <strong>Chef de zone / Développeur Web Full Stack</strong> - [2019-2024]  - SPA Groupe ESKEMA -Setif-Algerie
+                        <strong>Chef de zone d'injection Kerajet </strong> - [2019-2024]  - SPA Groupe ESKEMA -Setif-Algerie
                     </li>
 
                 </div>
