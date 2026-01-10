@@ -195,31 +195,31 @@ export default function Projects() {
                 <div className='p-6 rounded-xl border border-white/10 w-full hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all'>
                     <div className="flex justify-between">
 
-                        <h3 className='text-xl font-bold mb-2'>Boutique de produits</h3>
+                        <h3 className='text-xl font-bold mb-2'>Recettes du monde</h3>
 
                     {/* github and live view */}
 
                             <div className="flex gap-10 pb-5">
                             <div className="text-blue-500 cursor-pointer text-3xl hover:text-blue-200 transition-colors "            
                         >
-                            <a href="https://github.com/meepoorkeepo/Mern-products" target="_blank">< FaGithub /></a>
+                            <a href="https://github.com/meepoorkeepo/recettes" target="_blank">< FaGithub /></a>
                             
                         </div>
 
                         <div className="text-blue-500 cursor-pointer text-4xl hover:text-blue-200 transition-colors "                              
                         >
-                            <a href="https://boutique-npyr.onrender.com" target="_blank"><BiShow /></a>
+                            <a href="https://recette-biq3.onrender.com" target="_blank"><BiShow /></a>
                             
                         </div>
                         </div>
                     </div>
 
-                    <p className='text-gray-400 mb-4'>Boutique en ligne fullstack avec interface responsive, gestion des produits,thèmes personnalisables. Développée avec React, Node.js, Express et MongoDB.</p>
+                    <p className='text-gray-400 mb-4'>Découvrez et partagez les meilleures recettes du monde. Ajoutez et modifiez vos recettes avec un design moderne en thème clair ou sombre.</p>
 
                     {/* skills */}
 
                     <div className="flex justify-start overflow-auto">
-                        {['react','node.js','express.js','mongodb','Render'].map((tech,key)=>(
+                        {['react','node.js','express.js','mongodb','ChakraUI','Render'].map((tech,key)=>(
                             <div
                                 key={key} 
                                 className='bg-blue-500/10 text-blue-300 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.8)] transition-all m-1'>{tech}</div>
@@ -250,7 +250,14 @@ export default function Projects() {
                             {isOpen1 && (
                                <>
                                 <p className="mt-2 px-4 py-3 shadow-sm">
-                                Boutique en ligne fullstack présentant un catalogue de produits avec interface responsive, mode sombre/clair et aperçu des images au clic. Chaque produit affiche une description détaillée, des photos haute qualité et des options de personnalisation. Développée avec React, Node.js, Express et MongoDB, elle met en avant l'expérience utilisateur sans fonctionnalité de panier ni paiement.
+                                Découvrez une collection exceptionnelle des meilleures recettes du monde sur notre plateforme culinaire moderne. Développée avec la stack MERN (MongoDB, Express.js, React, Node.js), notre site offre une expérience utilisateur fluide et performante.
+
+                                Fonctionnalités principales :<br/>
+                                • Parcourez des recettes authentiques des quatre coins du globe<br/>
+                                • Ajoutez vos propres créations culinaires facilement<br/>
+                                • Modifiez et personnalisez vos recettes à tout moment<br/>
+                                • Profitez d'une interface adaptative avec thème clair et sombre pour un confort visuel optimal<br/>
+                                • Navigation intuitive et design responsive pour tous vos appareils
 
                                 </p>
                                 <div>
