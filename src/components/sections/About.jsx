@@ -1,6 +1,6 @@
 import {RevealOnScroll} from '../RevealOnScroll'
 
-import { FaHtml5,FaCss3,FaReact,FaNodeJs,FaNpm,FaGithub,FaCloudDownloadAlt} from 'react-icons/fa'
+import { FaHtml5,FaCss3,FaDocker,FaReact,FaNodeJs,FaNpm,FaGithub,FaCloudDownloadAlt} from 'react-icons/fa'
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandSocketIo } from "react-icons/tb";
@@ -28,7 +28,7 @@ export default function About() {
       const toolskills = [
         {label:'Vscode',icon:<VscVscode />},
         {label:'NPM',icon:<FaNpm />},
-        {label:'Vite',icon:<SiVite />},
+        {label:'Docker',icon:<FaDocker />},
         {label:'GitHub',icon:<FaGithub />},
         {label:'Postman',icon:<SiPostman />},
     ]
@@ -59,17 +59,17 @@ export default function About() {
                         <strong>Ingénieur d'État Océanographie</strong> -[2009-2014] -Ecole Nationale Supérieure (ENSSMAL) - Algerie
                     </li>
                     <li>
-                        <strong>Formation Autodidacte en Développement Web Full-Stack</strong> -[2017-2019] -  via la plateforme FreeCodeCamp et documentation officielle
+                        <strong>Licence Informatique</strong> -[2015-2018] - Université Abderrahmane Mira, Béjaïa 
                     </li>
                 </ul>
                 </div>
                 <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all '>
                 <h3 className='text-xl font-bold mb-4'>💼 Expérience professionnelle</h3>
-                    <li className='pb-6'>
-                        <strong>Cadre en logistique</strong> -[2016-2017] Société Algérienne De Fabrication De Véhicules Mercedes-benz (SAFAV)
-                    </li>
                     <li>
-                        <strong>Chef de zone d'injection Kerajet </strong> - [2019-2024]  - SPA Groupe ESKEMA -Setif-Algerie
+                        <strong>Alternance en Développement Web</strong> -[2020-2022] - BNA (Banque Nationale d'Algérie), Béjaïa 
+                    </li>
+                    <li className='pb-6'>
+                        <strong>Développeur Full Stack MERN</strong> -[2022-2024] BNA (Banque Nationale d'Algérie), Alger
                     </li>
 
                 </div>
